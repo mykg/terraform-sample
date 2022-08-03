@@ -7,4 +7,5 @@ phases:
   
   build:
     commands:
+      - terraform plan
       - terraform apply --auto-approve
